@@ -18,7 +18,6 @@ namespace LeetCodeCSharp
 
             Console.WriteLine("[{0}]", string.Join(", ", twoSumResult));
 
-
             Console.ReadLine();
         }
     }
