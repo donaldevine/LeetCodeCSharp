@@ -43,10 +43,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AtoiSolution.cs" />
+    <Compile Include="CountGoodNodesSolution.cs" />
+    <Compile Include="ExcelSheetColumnNumberSolution.cs" />
     <Compile Include="IsPalindromeSolution.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TreeNode.cs" />
     <Compile Include="TwoSumSolution.cs" />
+    <Compile Include="ValidParenthesesSolution.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
