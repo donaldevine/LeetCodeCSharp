@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// Convert a non-negative integer num to its English words representation.
+/// </summary>
+
 namespace LeetCodeCSharp
 {
     public class IntegerToEnglishWordsSolution
     {
-
-
-
         public string NumberToWords(int num)
         {
             string words = "";
