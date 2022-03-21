@@ -47,6 +47,7 @@
     <Compile Include="ContainsDuplicateSolution.cs" />
     <Compile Include="CountGoodNodesSolution.cs" />
     <Compile Include="ExcelSheetColumnNumberSolution.cs" />
+    <Compile Include="FindMedianSortedArraysSolution.cs" />
     <Compile Include="GroupAnagramsSolution.cs" />
     <Compile Include="IntegerToEnglishWordsSolution.cs" />
     <Compile Include="IsPalindromeSolution.cs" />
