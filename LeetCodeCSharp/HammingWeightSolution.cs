@@ -18,14 +18,12 @@ namespace LeetCodeCSharp
             int bits = 0;
             int mask = 1;
 
-            for (int i = 0; i < 32; i++)
+            while (n > 0)
             {
-                if ((n & mask) != 0)
-                {
-                    bits++;
-                }
+                if ((n & mask) == 1) bits++;
+                n >>= 1;
             }
-          
+
             return bits;
         }
 
