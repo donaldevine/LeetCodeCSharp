@@ -49,6 +49,7 @@
     <Compile Include="ExcelSheetColumnNumberSolution.cs" />
     <Compile Include="FindMedianSortedArraysSolution.cs" />
     <Compile Include="GroupAnagramsSolution.cs" />
+    <Compile Include="HammingWeightSolution.cs" />
     <Compile Include="IntegerToEnglishWordsSolution.cs" />
     <Compile Include="IsPalindromeSolution.cs" />
     <Compile Include="LinkedListCycleSolution.cs" />
