@@ -61,6 +61,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseListSolution.cs" />
     <Compile Include="SetMatrixZerosSolution.cs" />
+    <Compile Include="SetZerosSolution.cs" />
     <Compile Include="SmallestPositiveInteger.cs" />
     <Compile Include="TreeNode.cs" />
     <Compile Include="TwoSumSolution.cs" />
