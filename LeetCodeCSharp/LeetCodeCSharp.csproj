@@ -63,6 +63,7 @@
     <Compile Include="SetMatrixZerosSolution.cs" />
     <Compile Include="SetZerosSolution.cs" />
     <Compile Include="SmallestPositiveInteger.cs" />
+    <Compile Include="TrappingRainWaterSolution.cs" />
     <Compile Include="TreeNode.cs" />
     <Compile Include="TwoSumSolution.cs" />
     <Compile Include="ValidParenthesesSolution.cs" />
