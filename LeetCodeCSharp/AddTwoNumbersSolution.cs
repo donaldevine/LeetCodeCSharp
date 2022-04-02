@@ -17,6 +17,9 @@ using System.Threading.Tasks;
 /// 
 /// Explanation: 342 + 465 = 807.
 /// 
+/// 
+/// Time complexity: O(max(m,n)) where m and n represents the length of l1 and l2 respectivley.
+/// Space complexity: O(max(m, n)). 
 /// </summary>
 
 namespace LeetCodeCSharp
