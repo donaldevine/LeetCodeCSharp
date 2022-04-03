@@ -9,6 +9,13 @@ using System.Threading.Tasks;
 /// and an integer target, write a function to search target in nums.
 /// If target exists, then return its index. Otherwise, return -1.
 /// You must write an algorithm with O(log n) runtime complexity.
+/// 
+/// Input: nums = [-1,0,3,5,9,12], target = 9
+/// 
+/// Output: 4
+/// 
+/// Explanation: 9 exists in nums and its index is 4
+/// 
 /// </summary>
 
 
@@ -19,18 +26,24 @@ namespace LeetCodeCSharp
 
         public int Search(int[] nums, int target)
         {
-            if(nums.Length < 1) return - 1;
+            if (nums.Length == 0) return -1;
 
-            int left = 0;
+            var l = 0; //low index
 
-            int right = nums.Length - 1;
+            var h = nums.Length - 1; //high index
 
-            while(left <= right)
+            while (l <= h)
             {
-                int mid = (left + right) / 2;
-                if (nums[mid] == target) return mid;
-                if (nums[mid] < target) left = mid + 1;
-                if (nums[mid] > target) right = mid - 1;
+                //get mid/pivot point between lower and higher indexes
+                var m = (l + h) / 2;
+
+                if (nums[m] == target) return m;
+
+                // if the target is higher than mid point, move lower up past mid point
+                if (nums[m] < target) l = m + 1;
+
+                // if the target is lower move higher down.
+                if (nums[m] > target) h = m - 1;
             }
 
             return -1;
