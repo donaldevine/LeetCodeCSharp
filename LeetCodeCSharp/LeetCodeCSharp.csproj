@@ -67,6 +67,7 @@
     <Compile Include="RotateImageSolution.cs" />
     <Compile Include="SetMatrixZerosSolution.cs" />
     <Compile Include="SetZerosSolution.cs" />
+    <Compile Include="SingleNumberSolution.cs" />
     <Compile Include="SmallestPositiveInteger.cs" />
     <Compile Include="SpiralOrderSolution.cs" />
     <Compile Include="TrappingRainWaterSolution.cs" />

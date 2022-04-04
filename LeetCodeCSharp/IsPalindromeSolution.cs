@@ -15,7 +15,6 @@ namespace LeetCodeCSharp
     {
         public bool IsPalindrome(string s)
         {
-
             s = s.Trim().ToLower();
 
             var charArray = s.ToCharArray();
@@ -32,6 +31,28 @@ namespace LeetCodeCSharp
 
             return false;
 
+        }
+
+        public bool IsPalindrome2(string s) {
+            var n = s.Length;
+            var left = 0;
+            var right = n - 1;
+
+            while (left < right) {
+                if (!char.IsLetterOrDigit(s[left])) {
+                    left++;
+                } else if (!char.IsLetterOrDigit(s[right])) {
+                    right--;
+                } else {
+                    if (char.ToLower(s[left]) != char.ToLower(s[right])) {
+                        return false;
+                    }
+                    left++;
+                    right--;
+                }
+            }
+
+            return true;
         }
     }
 }
