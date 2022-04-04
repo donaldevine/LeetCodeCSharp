@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace LeetCodeCSharp
 {
+
+    /// <summary>
+    /// Binary Tree node
+    /// </summary>
     public class TreeNode
     {
         public int val;

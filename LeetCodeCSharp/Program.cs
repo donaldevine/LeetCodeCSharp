@@ -10,13 +10,12 @@ namespace LeetCodeCSharp
     {
         static void Main(string[] args)
         {
-            TwoSumSolution twoSumSolution = new TwoSumSolution();
+            FibonacciSolution fibonacciSolution = new FibonacciSolution();
 
-            int[] nums = { 2, 7, 11, 15 };
+            
+            var fibResult = fibonacciSolution.fib(50);
 
-            var twoSumResult = twoSumSolution.TwoSum(nums, 9);
-
-            Console.WriteLine("[{0}]", string.Join(", ", twoSumResult));
+            Console.WriteLine($"fib: {fibResult}");
 
             Console.ReadLine();
         }

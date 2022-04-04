@@ -48,9 +48,11 @@
     <Compile Include="ContainsDuplicateSolution.cs" />
     <Compile Include="CountGoodNodesSolution.cs" />
     <Compile Include="ExcelSheetColumnNumberSolution.cs" />
+    <Compile Include="FibonacciSolution.cs" />
     <Compile Include="FindMedianSortedArraysSolution.cs" />
     <Compile Include="GroupAnagramsSolution.cs" />
     <Compile Include="HammingWeightSolution.cs" />
+    <Compile Include="InorderTraversalSolution.cs" />
     <Compile Include="IntegerToEnglishWordsSolution.cs" />
     <Compile Include="IsPalindromeSolution.cs" />
     <Compile Include="LinkedListCycleSolution.cs" />
@@ -70,6 +72,7 @@
     <Compile Include="TrappingRainWaterSolution.cs" />
     <Compile Include="TreeNode.cs" />
     <Compile Include="TwoSumSolution.cs" />
+    <Compile Include="ValidateBinarySearchTreeSolution.cs" />
     <Compile Include="ValidParenthesesSolution.cs" />
   </ItemGroup>
   <ItemGroup>

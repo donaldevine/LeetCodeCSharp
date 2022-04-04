@@ -32,10 +32,14 @@ namespace LeetCodeCSharp
                     case '{':
                         endings.Push('}');
                         break;
+                    case '<':
+                        endings.Push('>');
+                        break;
                     case ')':
                     case ']':
                     case '}':
-                        if (endings.Count == 0 || (endings.Pop() != c)) return false;
+                    case '>':
+                        if (endings.Count == 0 || endings.Pop() != c) return false;
                         break;
                 }
             }
