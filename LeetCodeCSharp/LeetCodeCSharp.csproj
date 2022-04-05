@@ -53,10 +53,12 @@
     <Compile Include="GroupAnagramsSolution.cs" />
     <Compile Include="HammingWeightSolution.cs" />
     <Compile Include="InorderTraversalSolution.cs" />
+    <Compile Include="InsertFiveSolution.cs" />
     <Compile Include="IntegerToEnglishWordsSolution.cs" />
     <Compile Include="IsPalindromeSolution.cs" />
     <Compile Include="LinkedListCycleSolution.cs" />
     <Compile Include="ListNode.cs" />
+    <Compile Include="LongestIncreasingSubsequenceSolution.cs" />
     <Compile Include="LongestPalindromeSolution.cs" />
     <Compile Include="LinkedList.cs" />
     <Compile Include="LRUCache.cs" />

@@ -16,6 +16,7 @@
 * [Find Median in a Sorted Array](/LeetCodeCSharp/FindMedianSortedArraysSolution.cs)
 * [Trapping Rain Water](/LeetCodeCSharp/TrappingRainWaterSolution.cs)
 * [Single Number - find single number in array of duplicates](/LeetCodeCSharp/SingleNumberSolution.cs)
+* [Insert Five - insert 5 into a number to return highest number](/LeetCodeCSharp/InsertFiveSolution.cs)
 
 ### Math
 * [Fibonacci](/LeetCodeCSharp/FibonacciSolution.cs)
@@ -41,7 +42,6 @@
 
 ### Design
 * [LRU Cache](/LeetCodeCSharp/LRUCache.cs)
-
 
 ### Trie
 * [Trie](/LeetCodeCSharp/Trie.cs)
