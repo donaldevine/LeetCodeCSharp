@@ -15,6 +15,7 @@
 * [Valid Parentheses](/LeetCodeCSharp/ValidParenthesesSolution.cs)
 * [Find Median in a Sorted Array](/LeetCodeCSharp/FindMedianSortedArraysSolution.cs)
 * [Trapping Rain Water](/LeetCodeCSharp/TrappingRainWaterSolution.cs)
+* [Single Number - find single number in array of duplicates](/LeetCodeCSharp/SingleNumberSolution.cs)
 
 ### Math
 * [Fibonacci](/LeetCodeCSharp/FibonacciSolution.cs)
@@ -42,7 +43,9 @@
 * [LRU Cache](/LeetCodeCSharp/LRUCache.cs)
 
 
-
+### Trie
+* [Trie](/LeetCodeCSharp/Trie.cs)
+* [TrieNode](/LeetCodeCSharp/TrieNode.cs)
 
 
 

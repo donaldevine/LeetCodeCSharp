@@ -72,6 +72,8 @@
     <Compile Include="SpiralOrderSolution.cs" />
     <Compile Include="TrappingRainWaterSolution.cs" />
     <Compile Include="TreeNode.cs" />
+    <Compile Include="Trie.cs" />
+    <Compile Include="TrieNode.cs" />
     <Compile Include="TwoSumSolution.cs" />
     <Compile Include="ValidateBinarySearchTreeSolution.cs" />
     <Compile Include="ValidParenthesesSolution.cs" />
