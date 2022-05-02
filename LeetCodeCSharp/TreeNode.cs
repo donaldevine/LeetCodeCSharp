@@ -21,5 +21,10 @@ namespace LeetCodeCSharp
             this.left = left;
             this.right = right;
         }
+
+        public TreeNode(int x)
+        {
+            this.val = x;            
+        }
     }
 }

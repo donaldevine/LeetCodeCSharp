@@ -17,6 +17,11 @@
 * [Trapping Rain Water](/LeetCodeCSharp/TrappingRainWaterSolution.cs)
 * [Single Number - find single number in array of duplicates](/LeetCodeCSharp/SingleNumberSolution.cs)
 * [Insert Five - insert 5 into a number to return highest number](/LeetCodeCSharp/InsertFiveSolution.cs)
+* [Is Anagram](/LeetCodeCSharp/IsAnagramSolution.cs)
+
+
+### Backtrack
+* [Letter Combinations Of A Phone Number](/LeetCodeCSharp/LetterCombinationsofAPhoneNumberSolution.cs)
 
 ### Math
 * [Fibonacci](/LeetCodeCSharp/FibonacciSolution.cs)
@@ -47,7 +52,11 @@
 * [Trie](/LeetCodeCSharp/Trie.cs)
 * [TrieNode](/LeetCodeCSharp/TrieNode.cs)
 
+### BST
+* [Serialize and Deserialize BST](/LeetCodeCSharp/BSTTreeSerializationAndDeserializationSolution.cs)
 
+### Binary Tree
+* [Serialize and Deserialize Binary Tree](/LeetCodeCSharp/BinaryTreeSerilizationAndDeserializationSolution.cs)
 
 
 

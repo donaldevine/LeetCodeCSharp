@@ -45,6 +45,8 @@
     <Compile Include="AddTwoNumbersSolution.cs" />
     <Compile Include="AtoiSolution.cs" />
     <Compile Include="BinarySearchSolution.cs" />
+    <Compile Include="BinaryTreeSerilizationAndDeserializationSolution.cs" />
+    <Compile Include="BSTTreeSerializationAndDeserializationSolution.cs" />
     <Compile Include="ContainsDuplicateSolution.cs" />
     <Compile Include="CountGoodNodesSolution.cs" />
     <Compile Include="ExcelSheetColumnNumberSolution.cs" />
@@ -55,6 +57,7 @@
     <Compile Include="InorderTraversalSolution.cs" />
     <Compile Include="InsertFiveSolution.cs" />
     <Compile Include="IntegerToEnglishWordsSolution.cs" />
+    <Compile Include="IsAnagramSolution.cs" />
     <Compile Include="IsPalindromeSolution.cs" />
     <Compile Include="LetterCombinationsofAPhoneNumberSolution.cs" />
     <Compile Include="LinkedListCycleSolution.cs" />

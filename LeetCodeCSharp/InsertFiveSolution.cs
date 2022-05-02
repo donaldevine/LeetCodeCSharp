@@ -25,7 +25,6 @@ namespace LeetCodeCSharp
 
             for (var i = 1; i < nString.Length; i++)
             {
-
                 var inta = (int)nString[i];
 
                 if (inta < 5)
