@@ -10,12 +10,16 @@ namespace LeetCodeCSharp
     {
         static void Main(string[] args)
         {
-            FibonacciSolution fibonacciSolution = new FibonacciSolution();
+            LetterCombinationsofAPhoneNumberSolution solution = new LetterCombinationsofAPhoneNumberSolution();
 
             
-            var fibResult = fibonacciSolution.fib(50);
+            var result = solution.LetterCombinations("23");
 
-            Console.WriteLine($"fib: {fibResult}");
+            foreach (var item in result)
+            {
+                Console.WriteLine(item);
+            }
+            
 
             Console.ReadLine();
         }
