@@ -18,6 +18,7 @@
 * [Single Number - find single number in array of duplicates](/LeetCodeCSharp/SingleNumberSolution.cs)
 * [Insert Five - insert 5 into a number to return highest number](/LeetCodeCSharp/InsertFiveSolution.cs)
 * [Is Anagram](/LeetCodeCSharp/IsAnagramSolution.cs)
+* [Is Isomorphic - 2 string have same pattern] (/LeetCodeCSharp/IsomorphicStringsSolution.cs)
 
 
 ### Backtrack

@@ -58,6 +58,7 @@
     <Compile Include="InsertFiveSolution.cs" />
     <Compile Include="IntegerToEnglishWordsSolution.cs" />
     <Compile Include="IsAnagramSolution.cs" />
+    <Compile Include="IsomorphicStringsSolution.cs" />
     <Compile Include="IsPalindromeSolution.cs" />
     <Compile Include="LetterCombinationsofAPhoneNumberSolution.cs" />
     <Compile Include="LinkedListCycleSolution.cs" />
@@ -66,6 +67,7 @@
     <Compile Include="LongestPalindromeSolution.cs" />
     <Compile Include="LinkedList.cs" />
     <Compile Include="LRUCache.cs" />
+    <Compile Include="MinDeletionsSolution.cs" />
     <Compile Include="MissingElementSolution.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

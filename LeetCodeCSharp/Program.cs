@@ -10,15 +10,15 @@ namespace LeetCodeCSharp
     {
         static void Main(string[] args)
         {
-            LetterCombinationsofAPhoneNumberSolution solution = new LetterCombinationsofAPhoneNumberSolution();
+            MinDeletionsSolution solution = new MinDeletionsSolution();
 
             
-            var result = solution.LetterCombinations("23");
+            var result = solution.MinDeletions("axxaxa");
 
-            foreach (var item in result)
-            {
-                Console.WriteLine(item);
-            }
+            
+            
+            Console.WriteLine(result);
+            
             
 
             Console.ReadLine();
